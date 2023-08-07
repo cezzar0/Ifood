@@ -1,0 +1,57 @@
+
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+}
+
+
+
+
+/* ================
+=======start Navbar
+==================*/
+
+.navbar {
+    background-color: white;
+    height: 70px;
+    box-shadow: 0 0 10px black;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--yellow-color);
+}
+
+.navbar .search {
+    border-left: 1px solid var(--green-color);
+}
+
+.navbar .search svg {
+    color: var(--green-color);
+}
+
+.navbar .navbar-toggler {
+    color: #facc22;
+    font-size: 25px;
+    border-color: white;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+    border-color: var(--green-color);
+}
+
+
+/* ================
+=========End Navbar
+==================*/
